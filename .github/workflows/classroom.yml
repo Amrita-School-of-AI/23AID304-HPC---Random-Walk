@@ -39,7 +39,7 @@ jobs:
           expected-output: "All 3 walkers have finished"
           comparison-method: contains # Use 'contains' because output is non-deterministic
           timeout: 10
-          points: 10
+          max-score: 10
 
       # 5. Report the results
       - name: Autograding Reporter
