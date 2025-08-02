@@ -9,8 +9,8 @@ NP=4
 # Name of the executable file
 EXEC="./random_walk"
 # Command-line arguments for the executable
-# Format: <domain_size> <max_walk_iterations> <walkers_per_process>
-ARGS="20 1000 1"
+# Format: <domain_size> <max_walk_iterations>
+ARGS="20 1000"
 
 # --- Test Execution ---
 # Run the MPI program and capture its standard output
